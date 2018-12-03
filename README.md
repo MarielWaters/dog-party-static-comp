@@ -71,8 +71,8 @@ In order to push up your work to GitHub, you’ll need to generate an SSH key. S
 
 ## Design Comp
 
-[Orig Comp](./images/dog-party-js-edition-comp.jpg)
+![Orig Comp](./images/dog-party-js-edition-comp.jpg)
 
 ## My comp
 
-[My Comp](./images/dog-party-js-my-edition.png)
+![My Comp](./images/dog-party-js-my-edition.png)
