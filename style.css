@@ -1,0 +1,176 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__nav-bar {
+  background-color: #95E0E4;
+  height: 5rem;
+}
+
+.nav-bar__logo--img {
+  height: 4em;
+  margin: .5em 1em;
+}
+
+.nav-bar___menu,
+.nav-bar__menu--link:link,
+.nav-bar__menu--link:visited {
+  color: #000;
+  float: right;
+  font-size: 1.25em;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-bar__menu--item {
+  display: inline-block;
+  margin-right: 1em;
+  margin-top: 1.25em;
+}
+
+.header__jumbotron {
+  background-image:
+    linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+    url("./images/park.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50em;
+  text-align: center;
+}
+
+.header__jumbotron--title {
+  color: #FFF;
+  font-size: 4em;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.header__jumbotron--title2 {
+  font-weight: 700;
+}
+
+.dog-imgs {
+  border: .4em solid #438DA6;
+  border-radius: 50%;
+  height: 18em;
+}
+
+.header__jumbotron--dog-image1 {
+  margin-top: 2em;
+}
+
+.form__name {
+  color: #FFF;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 2em;
+  padding-bottom: .5em;
+  padding-right: 22em;
+}
+
+.form__input {
+  height: 4em;
+  width: 37em;
+}
+
+.form__submit {
+  background-color: #95E0E4;
+  font-size: 1.25em;
+  height: 3.25em;
+  margin-top: 2em;
+  width: 29.75em;
+}
+
+.articles__article {
+  display: inline-block;
+  height: 54.5em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 31%;
+}
+
+.articles__article--title {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  margin-left: 3em;
+  margin-top: 1.5em;
+}
+
+.dog-articles__article--image {
+  margin-left: 6.5em;
+}
+
+.articles__article--text {
+  font-size: 1.5em;
+  margin-left: 7em;
+  margin-top: 2em;
+  text-align: left;
+  width: 17em;
+}
+
+.btn {
+  background-color: #438DA6;
+  color: #FFF;
+  font-size: 1.4em;
+  height: 2.75em;
+  margin-top: 1.6em;
+  width: 13em;
+}
+
+.articles__btns {
+  bottom: 0;
+  display: inline-block;
+  margin-left: -6.5em;
+  margin-top: 6em;
+  position: absolute;
+  text-align: center;
+  width: 18em;
+}
+
+.footer {
+  background-color: #438DA6;
+  color: #FFF;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.footer__heading {
+  font-size: 2em;
+  font-weight: 400;
+  padding-top: 2em;
+}
+
+.footer__social--media-badges {
+  margin-top: 2.5em;
+}
+
+
+.footer__social--media-badge-list {
+  display: inline-block;
+  list-style-type: none;
+  margin: 1em;;
+  padding: 0;
+}
+
+.footer__heading--social-media-badge-link {
+    bottom: 15px;
+    color: #FFF;
+    font-weight: bold;
+    position: relative;
+}
